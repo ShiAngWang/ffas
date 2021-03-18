@@ -5,7 +5,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
-    <link rel="stylesheet" type="text/css" href="./img/cssin.css">
+    <link rel="stylesheet" type="text/css" href="./index_files/cssin.css">
     <title>动态码</title>
 
     <script>
@@ -23,8 +23,7 @@
         function btn(){
             var img = document.getElementById("headpic");
             var ran = Math.floor(Math.random()*20);//生成0和7之间的随机整数；由于会随机到0，所以建议图片命名从0开始
-            // img.src = "icon/headpic" + ran + ".jpg";
-            img.src = "img/headpic4.jpg";
+            img.src = "./index_files/headpic17.jpg";
         }
         function startTime() {
             const today = new Date();//定义日期对象
@@ -58,16 +57,16 @@
 
 
 
-<body onload="alertInput()" background="./img/bg2.png">
+<body onload="alertInput()" background="./index_files/bg2.png">
     <div class="p1">
         <div class="top-time">
-            <font size="1" color="white"><span id="nowDateTimeSpan">——当前时间：2021-03-18 17:36:31——</span></font>
+            <font size="1" color="white"><span id="nowDateTimeSpan">——当前时间：2021-03-18 18:21:10——</span></font>
         </div>
     </div>
     <div class="p2">
         <span class="headpic-out">
             <div class="headpic-in">
-                <img id="headpic" src="./img/headpic4.jpg">	
+                <img id="headpic" src="./index_files/headpic17.jpg">	
             </div>
         </span>
         <span class="textbox">
@@ -87,7 +86,7 @@
     </div>
     <div class="p3">
         <div class="p3u">
-            <span id="nowTime">扫码时间：2021-03-18 17:33:22</span>
+            <span id="nowTime">扫码时间：2021-03-18 18:20:29</span>
             <script>
                 const today = new Date();//定义日期对象
                 let yyyy = today.getFullYear();//通过日期对象的getFullYear()方法返回年
@@ -107,10 +106,10 @@
             </script>
         </div>
         <div class="p3m">
-            <img src="./img/sucin.png">
+            <img src="./index_files/sucin.png">
         </div>
         <div class="p3d">
-            <img src="./img/gif4.png" border="0" name="banner">
+            <img src="./index_files/gif3.png" border="0" name="banner">
             <script>
                 var banArray = new Array(2); 
                 var counter = 1;
@@ -119,7 +118,7 @@
                  for(i = 0; i < 2; i++)
                  {
                   banArray[i] = new Image();
-                  banArray[i].src = "./img/gif" + (i+3) + ".png";
+                  banArray[i].src = "./index_files/gif" + (i+3) + ".png";
                  }
                 }
                 function changeBanner() 
@@ -153,7 +152,7 @@
                 <span class="p4ln2text">
                     时间：
                 </span>
-                <span id="outTime">2021-03-18 16:06:09</span>
+                <span id="outTime">2021-03-18 17:32:19</span>
                 <script>
                     const today1 = new Date();//定义日期对象
                     let rad1= Math.floor(Math.random()*59);
@@ -200,7 +199,7 @@
         
     </div>
     <div class="p5">
-        <img src="./img/bt.png">
+        <img src="./index_files/bt.png">
     </div>
     
 
